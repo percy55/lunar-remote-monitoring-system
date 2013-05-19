@@ -1,0 +1,1 @@
+function show_kwg() { var total_kwh=10000; document.write(numberWithCommas(total_kwh)); }

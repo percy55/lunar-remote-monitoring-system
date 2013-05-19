@@ -1,0 +1,13 @@
+Notes On ﻿Data Requests:
+
+Once every 5 minutes means 12x per hour.
+12 (per hour) x 24 (hours in a day) = 288 requests per day.
+288 * 30 (days) = 8,640.
+288 * 365 (days) = 105,120 records.
+
+Raw logs can be processed 300,000-400,000 records per second.
+Database records can be processed 250,000 records per second.
+Therefore, approx 3.3 years of data can be processed per second.
+
+4,000 customers with 1 month of data is 34,560,000 records. Canary will process this and it should be as fast as possible. Within 5 minutes we should know if there is a problem with any inverter on the network, and ideally under 3 minutes. Canary may take up to 2 minutes to learn of a problem and take less than 10 seconds to notify a technician of a potential and/or pending problem.
+

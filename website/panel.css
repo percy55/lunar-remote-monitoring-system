@@ -1,0 +1,11 @@
+html, body, #map-canvas {
+font-family: Verdana, Sans-Serif;
+font-size: 10pt;
+margin: 0;
+padding: 0;
+height: 100%;
+}
+TD {
+font-family: Verdana, Sans-Serif;
+font-size: 10pt;
+}
