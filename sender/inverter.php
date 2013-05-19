@@ -12,7 +12,7 @@ $pv1_cur=rand(1,100);
 $pv2_cur=rand(1,100);
 $watts=rand(0,350);
 
-$URL="http://inverter.mchomenet.info/recorddb.php?serial=".$serial."
+$URL="http://myserver.com/recorddb.php?serial=".$serial."
 &ac_volts=".$ac_volts."
 &ac_current=".$ac_current."
 &ac_freq=".$ac_freq."
