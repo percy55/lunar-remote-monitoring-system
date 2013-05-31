@@ -65,7 +65,7 @@ while($row=$results->fetchArray())
 	$first_one="no";
 }
 
-imagestring($img,3,10,$height-20,'Line Graph by: MK Technology Research',$black);
+imagestring($img,3,10,$height-20,'Line Graph by: LUNAR Remote Monitoring System',$black);
 imagepng($img);
 imagedestroy($img);
 $base->close();

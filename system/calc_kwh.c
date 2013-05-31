@@ -1,6 +1,7 @@
 /*
     calc_kwh.c
-    
+    Copyright (C) 2013 Martin A. COLEMAN. All rights reserved.
+
     Redistribution and use in source and binary forms, with or without
 	modification, are permitted provided that the following conditions are met: 
 
@@ -24,6 +25,7 @@
 #include <stdio.h>
 #include "libs/sqlite3.c"
 
+/* modify these as needed. could even make them command line parameters */
 #define RECORDS_FILE "../data/records.sq3"
 #define JAVASCRIPT_FILE "../website/kwg.js"
 

@@ -1,5 +1,8 @@
 L.U.N.A.R. - Lightning-fast Unlimited/Unique Number Analyser and Responder
-By Martin COLEMAN (C) 2013.
+By Martin A. COLEMAN (C) 2013.
+v0.9a
+
+APPROXIMATELY 80% COMPLETE ONLY.
 
 LUNAR provides a remote monitoring, analysis and management portal with a web-based facility designed for monitoring of electronic equipment with network capability, such as some inverters for solar systems.
 

@@ -43,6 +43,6 @@ foreach($arrval as $values)
 
 imageline($im, 20, 11, 20, $height-50, $black);
 imageline($im, 20, $height-49, $width-10, $height-49, $black);
-imagestring($im,3,10,$height-20,'Line Graph by: MK Technology Research',$blue);
+imagestring($im,3,10,$height-20,'Line Graph by: LUNAR Remote Monitoring System',$blue);
 imagepng($im);
 ?>

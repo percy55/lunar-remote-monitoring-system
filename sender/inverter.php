@@ -1,4 +1,9 @@
 <?php
+/*
+    By Martin A. COLEMAN.
+    It's a stupid little pretend inverter simulator.
+    Released into the Public Domain or its nearest equivalent in your jurisdiction.
+*/
 //$inverterid="6d854a6fdcd414f2b37e9654f3d2303d";
 $serial="051312345";
 //$rightnow=date('ymdhis');
