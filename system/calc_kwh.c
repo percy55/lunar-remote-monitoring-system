@@ -23,7 +23,7 @@
 	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 #include <stdio.h>
-#include "libs/sqlite3.c"
+#include <sqlite3.h>
 
 /* modify these as needed. could even make them command line parameters */
 #define RECORDS_FILE "../data/records.sq3"

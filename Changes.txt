@@ -1,0 +1,8 @@
+2013-06-05
+- Started this Changes.txt file.
+- Added basic authentication to record.php.
+- Finally found time to finish off most of record.c.
+- Removed redundant embedding of SQLite3 everywhere. canary.c, calc_kwh.c and record.c link to sqlite3 now.
+- Introduced error codes into the recorders.
+- Now depends on the user to compile qDecoder (http://www.qdecoder.org/wiki/qdecoder)
+- Updated makeit.sh

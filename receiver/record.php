@@ -13,6 +13,7 @@ if(!isset($_GET['serial']) || !isset($_GET['ac_volts']) || !isset($_GET['ac_curr
 	die("Error");
 }
 $serial=$_GET['serial'];
+$auth=$_GET['auth'];
 //$rightnow=$_GET['rightnow'];
 $rightnow=date('ymdhis');
 $ac_volts=$_GET['ac_volts'];
@@ -24,6 +25,11 @@ $pv2_volts=$_GET['pv2_volts'];
 $pv1_cur=$_GET['pv1_cur'];
 $pv2_cur=$_GET['pv2_cur'];
 $watts=$_GET['watts'];
+
+if($auth != md5($serial))
+{
+    die("ET2");
+}
 
 $base=sqlite_open("../data/records.sq3", 0666);
 $query = "INSERT INTO readings(inverter, recordedat, ac_volts, ac_current, ac_freq, heatsink_temp, pv1_volts, pv2_volts, pv1_current, pv2_current, watts) VALUES('".$serial."', datetime('NOW'), '".$ac_volts."', '".$ac_current."', '".$ac_freq."', '".$heatsink_temp."', '".$pv1_volts."', '".$pv2_volts."', '".$pv1_cur."', '".$pv2_cur."', ".$watts.")";

@@ -1,0 +1,8 @@
+To do:
+* Installer dashboard
+* Canary
+* Custom graphs depending on date query
+* More equipment on the maps
+* Installation instructions
+* Anything else I can think of
+* Now the subject of a research paper

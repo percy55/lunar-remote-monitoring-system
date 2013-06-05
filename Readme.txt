@@ -1,5 +1,5 @@
 L.U.N.A.R. - Lightning-fast Unlimited/Unique Number Analyser and Responder
-v0.9a
+v0.91
 By Martin A. COLEMAN (C) 2013.
 
 APPROXIMATELY 80% COMPLETE ONLY.
@@ -27,8 +27,8 @@ view.php - Soon to be converted to C. This creates the equipment performance gra
 
 Acknowledgments:
 I wrote this entirely from scratch while reading a project scope for a web-based monitoring facility for an electronic equipment manufacturer, with two exceptions:
-* Special thanks to the SQLite project for SQLite3 (public domain). Wonderful database people!
-* Special thanks to the qDecoder project (public domain). Very useful CGI library for C!
+* Special thanks to the SQLite project for SQLite3 (www.sqlite.org). Wonderful database people!
+* Special thanks to the qDecoder project (www.qdecoder.org/wiki/qdecoder). Very useful CGI library for C!
 
 License:
 Released under the BSD 2-Clause license. Don't want to have to include the license text when you commercially implement this? Talk to me.

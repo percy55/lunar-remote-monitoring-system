@@ -16,8 +16,9 @@ $pv2_volts=rand(1,200);
 $pv1_cur=rand(1,100);
 $pv2_cur=rand(1,100);
 $watts=rand(0,350);
+$auth=md5($serial);
 
-$URL="http://myserver.com/recorddb.php?serial=".$serial."
+$URL="http://myserver.com/recorddb.php?serial=".$serial."&auth=".$auth."
 &ac_volts=".$ac_volts."
 &ac_current=".$ac_current."
 &ac_freq=".$ac_freq."
