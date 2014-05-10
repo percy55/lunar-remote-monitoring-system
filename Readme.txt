@@ -35,5 +35,4 @@ Released under the BSD 2-Clause license. Don't want to have to include the licen
 
 Sign Off:
 Martin A. COLEMAN, Caloundra, Australia. May 2013.
-http://www.mchomenet.info
-http://www.mchomenet.info/lunar.html
+http://www.martincoleman.com/lunar.html
